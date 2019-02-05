@@ -1,6 +1,7 @@
 #include<iostream>
 #include<stdlib.h>
 #include<stdio.h>
+#include <unistd.h>
 
 #define MAX     100
 
@@ -91,8 +92,16 @@ class Tree{
 
     void inOrderTraversal()
     {
+        cout<<"InOrder for this Tree :"<<endl;
         inOrder(head);
-        cout<<endl;;
+        cout<<endl;
+    }
+    
+    void leftViewOfTree()
+    {
+        cout<<"Left view of Tree is : " <<endl;
+        leftView(head);
+        cout<<endl;
     }
 
     private:
@@ -103,6 +112,48 @@ class Tree{
         inOrder(n->left);
         cout<<n->getData()<<" ";
         inOrder(n->right);
+    }
+
+    void leftView(Node *temp)
+    {
+        if (temp == NULL)
+            return;
+
+        Node *arr[100];
+        Node *dummy = new Node();
+        dummy->setData(-1);
+        dummy->left = NULL;
+        dummy->right = NULL;
+
+        arr[0] = temp;
+        arr[1] = dummy;
+        int i = 0;;
+        int n = 2;
+        
+        cout<<temp->getData()<<" "<<endl;
+        
+        Node *curr = arr[0];
+        while(curr != NULL)
+        {
+            curr = arr[i];
+            if (curr->getData() == -1)
+            {
+                arr[n++] = dummy;
+                if(arr[i+1]->getData() == curr->getData())
+                    break;
+                cout<<arr[i+1]->getData()<<" "<<endl;
+            }
+            else
+            {
+                //cout<<"Adding value for "<<curr->getData()<<endl;
+                if(curr->left != NULL)
+                    arr[n++] = curr->left;
+                if(curr->right != NULL)
+                    arr[n++] = curr->right;
+            }
+     //       cout<<i<<" "<<endl;
+            i++;
+        }
     }
 };
 
@@ -120,6 +171,7 @@ int main()
     t.addNode(130);
     t.addNode(180);
     t.inOrderTraversal();
-    
+    //usleep(100000);
+    t.leftViewOfTree(); 
     return 0;
 }
