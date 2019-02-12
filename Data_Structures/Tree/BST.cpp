@@ -104,6 +104,13 @@ class Tree{
         cout<<endl;
     }
 
+    void spiralViewOfTree()
+    {
+        cout<<"spiralView of Tree is "<<endl;
+        spiralView(head);
+        cout<<endl;
+    }
+
     private:
     void inOrder(Node *n)
     {
@@ -155,6 +162,79 @@ class Tree{
             i++;
         }
     }
+
+    void spiralView(Node *head)
+    {
+        //head push                 1
+        // level  =1
+        // push(r,l))           3       2
+        // rev                  2       3
+        // 2, 3 ->push(l,r)            4   5       7
+        // rev              7   5       4
+        // 7 5 4 push(r,l))  8   9  10  
+        // rev              10 9 8 
+        //
+
+        Node *Queue[MAX];
+        Node *dummy = new Node();
+        dummy->setData(-1);
+
+        Queue[0] = head;
+        Queue[1] = dummy;
+
+        Node *temp = head;
+        int level = 1; // Head is at level 1
+        int curr_index = 0;
+        int push_index = 1;
+        
+        cout<<endl<<"******* Level "<<level<<" *********"<<endl;
+        while(temp != NULL) 
+        {            
+            temp = Queue[curr_index];
+            
+            if (curr_index == push_index)//Queue[curr_index]->getData() == Queue[curr_index+1]->getData())
+                break;
+
+            if (temp->getData() == -1)
+            {
+
+                int i = curr_index+1;
+                int j = push_index;
+                Node  *t;
+               
+                while(i<=j)
+                {
+                    t = Queue[i];
+                    Queue[i] = Queue[j];
+                    Queue[j] = t;
+                    i++; j--;
+                }
+                curr_index++;
+                Queue[++push_index] = dummy;
+                level++;
+                cout<<endl<<"******* Level "<<level<<" *********"<<endl;
+                continue;
+            }
+            
+            cout<<"\t"<<temp->getData()<<" ";
+            
+            if (level%2 == 0)
+            {
+                if (temp->left!=NULL)
+                    Queue[++push_index] = temp->left;
+                if (temp->right!=NULL)                
+                    Queue[++push_index] = temp->right;            
+            }
+            else
+            {
+                if (temp->right!=NULL)                
+                    Queue[++push_index] = temp->right;
+                if (temp->left!=NULL)                
+                    Queue[++push_index] = temp->left;            
+            }
+            curr_index++; 
+        }
+    }
 };
 
 
@@ -173,5 +253,7 @@ int main()
     t.inOrderTraversal();
     //usleep(100000);
     t.leftViewOfTree(); 
+
+    t.spiralViewOfTree();
     return 0;
 }
