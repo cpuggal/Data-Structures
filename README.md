@@ -10,3 +10,4 @@ My main agenda is to write basic fuctions and programs for:
 5. Heap
 6. Stack and Queue
 7. HashMaps
+8. STL
