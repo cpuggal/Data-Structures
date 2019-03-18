@@ -111,6 +111,17 @@ class Tree{
         cout<<endl;
     }
 
+    void postOrder()
+    {
+        cout << "Post Order Traversal " << endl;
+        
+        if (n == NULL)
+            return;
+
+        postOrderIterative(head);
+        cout << endl;
+    }
+
     private:
     void inOrder(Node *n)
     {
@@ -235,6 +246,13 @@ class Tree{
             curr_index++; 
         }
     }
+    
+    void postOrderIterative(Node *n)
+    {
+        
+
+
+    }
 };
 
 
@@ -255,5 +273,7 @@ int main()
     t.leftViewOfTree(); 
 
     t.spiralViewOfTree();
+
+    postOrder();
     return 0;
 }
