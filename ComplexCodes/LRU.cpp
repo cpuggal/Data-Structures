@@ -83,7 +83,9 @@ class LRUOfC
     public:
         LRUOfC(int size)
         {
+            cout << "Constructio for LRU" << endl;
             cSize = size;
+            curr_size = 0;
             head = NULL;
             tail = NULL;
             
@@ -96,7 +98,20 @@ class LRUOfC
         QueueElement *addNode(int data)
         {
             QueueElement *temp = new QueueElement(data);
+            curr_size++;
+
+            cout << "Adding node" << endl;
+            
+            if (head == NULL)
+            {
+                temp->next = NULL;
+                temp->prev = NULL;
+                head = temp;
+                tail = temp;
+                return temp;
+            }
             temp->next = head;
+            head->prev = temp;
             head = temp;
 
             return temp;
@@ -107,9 +122,11 @@ class LRUOfC
             QueueElement *temp = tail->prev;
             temp->next = tail->next;
             map[tail->data] = NULL;
-
+            
+            cout << "removeTailFromQueue and clean Map entry also" << endl;
             delete tail;
             tail = temp;
+            curr_size--;
         }
 
     public:
@@ -118,9 +135,11 @@ class LRUOfC
             QueueElement *temp;
             QueueElement *prev;
             QueueElement *nxt;
+            cout << "Refering LRU" << endl;
 
             if (map[data] == NULL) // If element is missing in Map then add it
             {
+                cout << "Not inside Map!" << endl;
                 if (cSize == curr_size)
                 {
                     //removeMapAndQueue(data);
@@ -132,11 +151,13 @@ class LRUOfC
             }
             else
             {
+                cout << "Already in Map" << endl;
                 temp = map[data];
                 prev = temp->prev;
                 nxt = temp->next;
-
-                prev->next = nxt;
+                
+                if(prev)
+                    prev->next = nxt;
                 if(nxt)
                     nxt->prev = prev;
                 
