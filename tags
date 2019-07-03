@@ -1,0 +1,226 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BFS	Data_Structures/Graphs/graph.cpp	/^        void BFS(int node)$/;"	f	class:Graph
+BLUE	Data_Structures/Graphs/graph.cpp	/^enum Color {WHITE, RED, BLUE};$/;"	e	enum:Color	file:
+BSTSwapProblem	Data_Structures/Tree/BST.cpp	/^    void BSTSwapProblem()$/;"	f	class:Tree	file:
+CPP_LRU	ComplexCodes/LRU.cpp	/^#define CPP_LRU /;"	d	file:
+Color	Data_Structures/Graphs/graph.cpp	/^enum Color {WHITE, RED, BLUE};$/;"	g	file:
+DEBUG	Data_Structures/Graphs/graph.cpp	/^#define DEBUG /;"	d	file:
+DEBUG	Data_Structures/Graphs/test.cpp	/^#define DEBUG /;"	d	file:
+DEBUG	Data_Structures/Heap/heap.cpp	/^#define DEBUG /;"	d	file:
+DEBUG	Data_Structures/Heap/heapSort.cpp	/^#define DEBUG /;"	d	file:
+DFS	Data_Structures/Graphs/graph.cpp	/^        void DFS(int node)$/;"	f	class:Graph
+DFSUtils	Data_Structures/Graphs/graph.cpp	/^        void DFSUtils(stack<int> s)$/;"	f	class:Graph
+Graph	Data_Structures/Graphs/graph.cpp	/^        Graph(int size)$/;"	f	class:Graph
+Graph	Data_Structures/Graphs/graph.cpp	/^class Graph {$/;"	c	file:
+HeapNode	Data_Structures/Heap/heap.cpp	/^class HeapNode$/;"	c	file:
+HeapNode	Data_Structures/Heap/heapSort.cpp	/^class HeapNode$/;"	c	file:
+IsPartitionPossible	Data_Structures/Graphs/graph.cpp	/^        bool IsPartitionPossible(int node)$/;"	f	class:Graph
+LRU	ComplexCodes/LRU.cpp	/^        LRU (int size)$/;"	f	class:LRU
+LRU	ComplexCodes/LRU.cpp	/^class LRU$/;"	c	file:
+LRUOfC	ComplexCodes/LRU.cpp	/^        LRUOfC(int size)$/;"	f	class:LRUOfC
+LRUOfC	ComplexCodes/LRU.cpp	/^class LRUOfC$/;"	c	file:
+LinkedList	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^        LinkedList() \/\/Constructor$/;"	f	class:LinkedList	file:
+LinkedList	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^class LinkedList {$/;"	c	file:
+MAP	STL/demo.cpp	/^#define MAP /;"	d	file:
+MAP_VECTOR	STL/demo.cpp	/^#define MAP_VECTOR /;"	d	file:
+MAX	Algorithms/Dynamic_Programming/Fabonnaci_Series.cpp	/^#define MAX /;"	d	file:
+MAX	Algorithms/Sorting/Heap_Sort.cpp	/^#define MAX /;"	d	file:
+MAX	Algorithms/Sorting/Merge_Sort.cpp	/^#define MAX /;"	d	file:
+MAX	Algorithms/Sorting/Quick_Sort.cpp	/^#define MAX /;"	d	file:
+MAX	Algorithms/Sorting/Selection_Sort.cpp	/^#define MAX /;"	d	file:
+MAX	ComplexCodes/LRU.cpp	/^#define MAX /;"	d	file:
+MAX	Data_Structures/Graphs/graph.cpp	/^#define MAX /;"	d	file:
+MAX	Data_Structures/Graphs/test.cpp	/^#define MAX /;"	d	file:
+MAX	Data_Structures/Heap/heap.cpp	/^#define MAX /;"	d	file:
+MAX	Data_Structures/Heap/heapSort.cpp	/^#define MAX /;"	d	file:
+MAX	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^#define MAX /;"	d	file:
+MAX	Data_Structures/Tree/BST.cpp	/^#define MAX /;"	d	file:
+MY_DS	STL/demo.cpp	/^#define MY_DS /;"	d	file:
+MaxHeapify	Data_Structures/Heap/heapSort.cpp	/^void MaxHeapify(int arr[], int n, int idx)$/;"	f
+MaxHeapsort	Data_Structures/Heap/heapSort.cpp	/^void MaxHeapsort(int arr[], int n)$/;"	f
+MinHeap	Data_Structures/Heap/heap.cpp	/^        MinHeap(int size)$/;"	f	class:MinHeap
+MinHeap	Data_Structures/Heap/heap.cpp	/^class MinHeap$/;"	c	file:
+MinHeapify	Data_Structures/Heap/heapSort.cpp	/^void MinHeapify(int arr[], int n, int idx)$/;"	f
+MinHeapsort	Data_Structures/Heap/heapSort.cpp	/^void MinHeapsort(int arr[], int n)$/;"	f
+Node	Data_Structures/LinkedList/SimpleLinkedList.cpp	/^}Node;$/;"	t	typeref:struct:node	file:
+Node	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^class Node {$/;"	c	file:
+Node	Data_Structures/Tree/BST.cpp	/^class Node{$/;"	c	file:
+Queue	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^        Queue()$/;"	f	class:Queue
+Queue	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^class Queue{$/;"	c	file:
+QueueElement	ComplexCodes/LRU.cpp	/^        QueueElement(int x)$/;"	f	class:QueueElement
+QueueElement	ComplexCodes/LRU.cpp	/^class QueueElement$/;"	c	file:
+RANGE_QUEST	STL/demo.cpp	/^#define RANGE_QUEST /;"	d	file:
+RED	Data_Structures/Graphs/graph.cpp	/^enum Color {WHITE, RED, BLUE};$/;"	e	enum:Color	file:
+SET	STL/demo.cpp	/^#define SET /;"	d	file:
+SIZE	ComplexCodes/LRU.cpp	/^#define SIZE /;"	d	file:
+SIZE	Data_Structures/Tree/string.cpp	/^#define SIZE /;"	d	file:
+STL_LRU	ComplexCodes/LRU.cpp	/^#define STL_LRU /;"	d	file:
+Search	Data_Structures/LinkedList/SimpleLinkedList.cpp	/^bool Search(Node *head, int data)$/;"	f
+Search	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^        bool Search(int value)$/;"	f	class:LinkedList
+SortedVector	Data_Structures/Graphs/test.cpp	/^vector<int> SortedVector(int arr[], int size)$/;"	f
+Stack	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^        Stack()$/;"	f	class:Stack
+Stack	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^class Stack$/;"	c	file:
+Tree	Data_Structures/Tree/BST.cpp	/^class Tree{$/;"	c	file:
+VECTOR	STL/demo.cpp	/^#define VECTOR /;"	d	file:
+WHITE	Data_Structures/Graphs/graph.cpp	/^enum Color {WHITE, RED, BLUE};$/;"	e	enum:Color	file:
+a	Algorithms/Dynamic_Programming/Fabonnaci_Series.cpp	/^int a[MAX];$/;"	v
+addEdge	Data_Structures/Graphs/graph.cpp	/^        void addEdge(int i, int j)$/;"	f	class:Graph
+addNode	ComplexCodes/LRU.cpp	/^        QueueElement *addNode(int data)$/;"	f	class:LRUOfC	file:
+addNode	Data_Structures/LinkedList/SimpleLinkedList.cpp	/^Node *addNode(Node *head, int data)$/;"	f
+addNode	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^        void addNode(int value)$/;"	f	class:LinkedList
+addNode	Data_Structures/Tree/BST.cpp	/^    void addNode(int d)$/;"	f	class:Tree
+addXtoVector	STL/demo.cpp	/^void addXtoVector(vector <int> *v, int d)$/;"	f
+adj	Data_Structures/Graphs/graph.cpp	/^        bool adj[MAX][MAX];$/;"	m	class:Graph	file:
+arr	Data_Structures/Heap/heap.cpp	/^        HeapNode *arr;$/;"	m	class:MinHeap	file:
+arr	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^        int arr[MAX];$/;"	m	class:Queue	file:
+arr	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^        int arr[MAX];$/;"	m	class:Stack	file:
+cSize	ComplexCodes/LRU.cpp	/^        int cSize;$/;"	m	class:LRU	file:
+cSize	ComplexCodes/LRU.cpp	/^        int cSize;$/;"	m	class:LRUOfC	file:
+calFab	Algorithms/Dynamic_Programming/Fabonnaci_Series.cpp	/^int calFab(int s)$/;"	f
+cleanVisited	Data_Structures/Graphs/graph.cpp	/^        void cleanVisited()$/;"	f	class:Graph
+col	Data_Structures/Graphs/graph.cpp	/^        Color col[MAX];$/;"	m	class:Graph	file:
+compareFun	ComplexCodes/LargestArray_vector.cpp	/^bool compareFun(string a, string b)$/;"	f
+compareFunction	Data_Structures/Heap/heapSort.cpp	/^        bool compareFunction(HeapNode x, HeapNode y)$/;"	f	class:HeapNode
+curr_idx	Data_Structures/Heap/heap.cpp	/^        int curr_idx;$/;"	m	class:MinHeap	file:
+curr_size	ComplexCodes/LRU.cpp	/^        int curr_size;$/;"	m	class:LRUOfC	file:
+data	ComplexCodes/LRU.cpp	/^        int data;$/;"	m	class:QueueElement	file:
+data	Data_Structures/Heap/heap.cpp	/^        int data;$/;"	m	class:HeapNode	file:
+data	Data_Structures/Heap/heapSort.cpp	/^        int data;$/;"	m	class:HeapNode	file:
+data	Data_Structures/LinkedList/SimpleLinkedList.cpp	/^    int data;$/;"	m	struct:node	file:
+data	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^        int data;$/;"	m	class:Node	file:
+data	Data_Structures/Tree/BST.cpp	/^       int data;$/;"	m	class:Node	file:
+deleteNode	Data_Structures/Tree/BST.cpp	/^    bool deleteNode(int d)$/;"	f	class:Tree
+descending	STL/demo.cpp	/^bool descending(int x, int y)$/;"	f
+display	ComplexCodes/LRU.cpp	/^        void display()$/;"	f	class:LRU
+display_Q	ComplexCodes/LRU.cpp	/^            void display_Q()$/;"	f	class:LRUOfC
+findLen	ComplexCodes/LargestArray.cpp	/^int findLen(int a)$/;"	f
+front	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^        int front()$/;"	f	class:Queue
+frontOfQueue	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^        int frontOfQueue;$/;"	m	class:Queue	file:
+function1	Data_Structures/Graphs/test.cpp	/^vector<pair<int,int> > function1(int arr[], int size)$/;"	f
+function2	Data_Structures/Graphs/test.cpp	/^vector<pair<int,int> > function2(int arr[], int size)$/;"	f
+function3	Data_Structures/Graphs/test.cpp	/^vector<pair<int,int> > function3(int arr[], int size)$/;"	f
+getData	Data_Structures/Heap/heap.cpp	/^        int getData()$/;"	f	class:HeapNode
+getData	Data_Structures/Heap/heapSort.cpp	/^        int getData()$/;"	f	class:HeapNode
+getData	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^        int getData()$/;"	f	class:Node
+getData	Data_Structures/Tree/BST.cpp	/^        int getData()$/;"	f	class:Node
+getInstance	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^        static LinkedList *getInstance()$/;"	f	class:LinkedList
+getNextElement	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^        Node *getNextElement()$/;"	f	class:Node
+getSize	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^        int getSize()$/;"	f	class:LinkedList
+getValue	Data_Structures/Heap/heap.cpp	/^        int getValue(int i)$/;"	f	class:MinHeap
+head	ComplexCodes/LRU.cpp	/^        QueueElement *head;$/;"	m	class:LRUOfC	file:
+head	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^        Node *head;$/;"	m	class:LinkedList	file:
+head	Data_Structures/Tree/BST.cpp	/^        Node *head;$/;"	m	class:Tree	file:
+inOrder	Data_Structures/Tree/BST.cpp	/^    void inOrder(Node *n)$/;"	f	class:Tree	file:
+inOrderTraversal	Data_Structures/Tree/BST.cpp	/^    void inOrderTraversal()$/;"	f	class:Tree
+init	Algorithms/Dynamic_Programming/Fabonnaci_Series.cpp	/^void init()$/;"	f
+insert	Data_Structures/Heap/heap.cpp	/^        void insert(int val)$/;"	f	class:MinHeap
+isACombination	ComplexCodes/nuts_and_bolts.cpp	/^bool isACombination(int a[], int b[], int size)$/;"	f
+isEdge	Data_Structures/Graphs/graph.cpp	/^        bool isEdge(int i, int j)$/;"	f	class:Graph
+isPresent	STL/demo.cpp	/^void isPresent(vector <int> v, int x)$/;"	f
+isVisited	Data_Structures/Graphs/graph.cpp	/^        bool isVisited(int i)$/;"	f	class:Graph
+largestNumber	ComplexCodes/LargestArray.cpp	/^char* largestNumber(const int* A, int n1) $/;"	f
+largestNumber	ComplexCodes/LargestArray_vector.cpp	/^string largestNumber(const vector<int> &A)$/;"	f
+left	Data_Structures/Tree/BST.cpp	/^        Node *left;$/;"	m	class:Node	file:
+leftChild	Data_Structures/Heap/heap.cpp	/^        int leftChild(int idx)$/;"	f	class:MinHeap
+leftView	Data_Structures/Tree/BST.cpp	/^    void leftView(Node *temp)$/;"	f	class:Tree	file:
+leftViewOfTree	Data_Structures/Tree/BST.cpp	/^    void leftViewOfTree()$/;"	f	class:Tree
+list	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^        static LinkedList *list;$/;"	m	class:LinkedList	file:
+list	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^LinkedList *LinkedList::list = NULL;$/;"	m	class:LinkedList	file:
+main	Algorithms/Dynamic_Programming/Fabonnaci_Series.cpp	/^int main()$/;"	f
+main	Algorithms/Sorting/Merge_Sort.cpp	/^int main()$/;"	f
+main	Algorithms/Sorting/Quick_Sort.cpp	/^int main()$/;"	f
+main	Algorithms/Sorting/Selection_Sort.cpp	/^int main()$/;"	f
+main	ComplexCodes/LRU.cpp	/^int main()$/;"	f
+main	ComplexCodes/LargestArray.cpp	/^int main()$/;"	f
+main	ComplexCodes/LargestArray_vector.cpp	/^int main()$/;"	f
+main	ComplexCodes/nuts_and_bolts.cpp	/^void main()$/;"	f
+main	ComplexCodes/wave_array.cpp	/^int main()$/;"	f
+main	Data_Structures/Graphs/graph.cpp	/^int main()$/;"	f
+main	Data_Structures/Graphs/test.cpp	/^int main()$/;"	f
+main	Data_Structures/Heap/heap.cpp	/^int main(void)$/;"	f
+main	Data_Structures/Heap/heapSort.cpp	/^int main()$/;"	f
+main	Data_Structures/LinkedList/SimpleLinkedList.cpp	/^int main(void)$/;"	f
+main	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^int main()$/;"	f
+main	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^int main()$/;"	f
+main	Data_Structures/Tree/BST.cpp	/^int main()$/;"	f
+main	Data_Structures/Tree/string.cpp	/^int main()$/;"	f
+main	STL/demo.cpp	/^int main()$/;"	f
+main	hello.cpp	/^int main(void)    $/;"	f
+main	template.cpp	/^int main()$/;"	f
+map	ComplexCodes/LRU.cpp	/^        QueueElement *map[MAX];$/;"	m	class:LRUOfC	file:
+mapOfVectors	STL/demo.cpp	/^void mapOfVectors()$/;"	f
+map_and_search	STL/demo.cpp	/^void map_and_search()$/;"	f
+merge	Algorithms/Sorting/Merge_Sort.cpp	/^void merge(int Arr[], int l, int m, int r)$/;"	f
+mergesort	Algorithms/Sorting/Merge_Sort.cpp	/^void mergesort(int Arr[], int l, int r)$/;"	f
+mp	ComplexCodes/LRU.cpp	/^        map <int, list<int>::iterator> mp;$/;"	m	class:LRU	file:
+my_ds	STL/demo.cpp	/^void my_ds()$/;"	f
+next	ComplexCodes/LRU.cpp	/^        QueueElement *next;$/;"	m	class:QueueElement	file:
+next	Data_Structures/LinkedList/SimpleLinkedList.cpp	/^    struct node *next;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^        Node *next;$/;"	m	class:Node	file:
+node	Data_Structures/LinkedList/SimpleLinkedList.cpp	/^typedef struct node {$/;"	s	file:
+parent	Data_Structures/Heap/heap.cpp	/^        int parent(int idx)$/;"	f	class:MinHeap
+partition	ComplexCodes/wave_array.cpp	/^int partition (int arr[], int low, int high) $/;"	f
+pop	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^        int pop()$/;"	f	class:Stack
+postOrder	Data_Structures/Tree/BST.cpp	/^    void postOrder()$/;"	f	class:Tree
+postOrderIterative	Data_Structures/Tree/BST.cpp	/^    void postOrderIterative(Node *n)$/;"	f	class:Tree	file:
+prev	ComplexCodes/LRU.cpp	/^        QueueElement *prev;$/;"	m	class:QueueElement	file:
+printArr	Algorithms/Sorting/Heap_Sort.cpp	/^void printArr(int a[], int sz)$/;"	f
+printArr	Algorithms/Sorting/Merge_Sort.cpp	/^void printArr(int Arr[], int size)$/;"	f
+printArr	Data_Structures/Graphs/test.cpp	/^void printArr(int arr[], int size)$/;"	f
+printHeap	Data_Structures/Heap/heapSort.cpp	/^void printHeap(int arr[], int n)$/;"	f
+printList	Data_Structures/LinkedList/SimpleLinkedList.cpp	/^void printList(Node *head)$/;"	f
+printMap	STL/demo.cpp	/^void printMap(map <char, int> m)$/;"	f
+printMapOfVectors	STL/demo.cpp	/^void printMapOfVectors(map <string, vector<int>> myMap)$/;"	f
+printMinHeap	Data_Structures/Heap/heap.cpp	/^        void printMinHeap()$/;"	f	class:MinHeap
+printQueue	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^        void printQueue()$/;"	f	class:Queue
+printSet	STL/demo.cpp	/^void printSet(set <int> s)$/;"	f
+printSetIterator	STL/demo.cpp	/^void printSetIterator(set <int>::iterator it, set <int> s, int x)$/;"	f
+printStack	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^        void printStack()$/;"	f	class:Stack
+printV	STL/demo.cpp	/^void printV(vector < pair<char, int>> v)$/;"	f
+printVector	Data_Structures/Graphs/test.cpp	/^void printVector(vector<pair<int,int> > v)$/;"	f
+printVector	STL/demo.cpp	/^void printVector(vector <int> v)$/;"	f
+printer	STL/demo.cpp	/^void printer(vector <int> v)$/;"	f
+push	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^        void push(int data)$/;"	f	class:Queue
+push	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^        void push(int data)$/;"	f	class:Stack
+queue	ComplexCodes/LRU.cpp	/^        list <int> queue;$/;"	m	class:LRU	file:
+quickSort	ComplexCodes/wave_array.cpp	/^void quickSort(int arr[], int low, int high) $/;"	f
+range_algo	STL/demo.cpp	/^void range_algo()$/;"	f
+rearOfQueue	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^        int rearOfQueue;$/;"	m	class:Queue	file:
+refer	ComplexCodes/LRU.cpp	/^        void refer(int data)$/;"	f	class:LRUOfC
+refer	ComplexCodes/LRU.cpp	/^        void refer(int x)$/;"	f	class:LRU
+remove	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^        int remove()$/;"	f	class:Queue
+removeEdge	Data_Structures/Graphs/graph.cpp	/^        void removeEdge(int i, int j)$/;"	f	class:Graph
+removeTailFromQueue	ComplexCodes/LRU.cpp	/^        void removeTailFromQueue()$/;"	f	class:LRUOfC	file:
+right	Data_Structures/Tree/BST.cpp	/^        Node *right;$/;"	m	class:Node	file:
+rightChild	Data_Structures/Heap/heap.cpp	/^        int rightChild(int idx)$/;"	f	class:MinHeap
+searchNOde	Data_Structures/Tree/BST.cpp	/^    bool searchNOde(int d)$/;"	f	class:Tree
+setData	Data_Structures/Heap/heap.cpp	/^        void setData(int d)$/;"	f	class:HeapNode
+setData	Data_Structures/Heap/heapSort.cpp	/^        void setData(int d)$/;"	f	class:HeapNode
+setData	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^        void setData(int d)$/;"	f	class:Node
+setData	Data_Structures/Tree/BST.cpp	/^       void setData(int d)$/;"	f	class:Node
+setNextElement	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^        void setNextElement(Node *n)$/;"	f	class:Node
+setVisited	Data_Structures/Graphs/graph.cpp	/^        void setVisited(int i)$/;"	f	class:Graph
+set_and_search	STL/demo.cpp	/^void set_and_search()$/;"	f
+size	Data_Structures/Graphs/graph.cpp	/^        int size;$/;"	m	class:Graph	file:
+size	Data_Structures/Heap/heap.cpp	/^        int size;$/;"	m	class:MinHeap	file:
+size	Data_Structures/LinkedList/SimpleLinkedList_Class.cpp	/^        int size;$/;"	m	class:LinkedList	file:
+size	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^        int size()$/;"	f	class:Queue
+size	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^        int size()$/;"	f	class:Stack
+size	Data_Structures/Tree/BST.cpp	/^        int size;$/;"	m	class:Tree	file:
+spiralView	Data_Structures/Tree/BST.cpp	/^    void spiralView(Node *head)$/;"	f	class:Tree	file:
+spiralViewOfTree	Data_Structures/Tree/BST.cpp	/^    void spiralViewOfTree()$/;"	f	class:Tree
+swap	ComplexCodes/wave_array.cpp	/^void swap(int* a, int* b) $/;"	f
+swap	Data_Structures/Heap/heap.cpp	/^        void swap(int i, int j)$/;"	f	class:MinHeap
+swap	Data_Structures/Heap/heapSort.cpp	/^void swap(int arr[], int i, int j)$/;"	f
+tail	ComplexCodes/LRU.cpp	/^        QueueElement *tail;    $/;"	m	class:LRUOfC	file:
+top	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^        int top()$/;"	f	class:Stack
+topOfStack	Data_Structures/Stack_Queue/Stack_Queue.cpp	/^        int topOfStack;$/;"	m	class:Stack	file:
+vector_and_search	STL/demo.cpp	/^void vector_and_search()$/;"	f
+vector_sorter	STL/demo.cpp	/^bool vector_sorter(pair<char, int> a, pair<char, int> b)$/;"	f
+visited	Data_Structures/Graphs/graph.cpp	/^        bool visited[MAX]; $/;"	m	class:Graph	file:
+wave	ComplexCodes/wave_array.cpp	/^int* wave(int* A, int n1, int *len1) {$/;"	f

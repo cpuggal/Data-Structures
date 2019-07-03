@@ -1,0 +1,16 @@
+Written (2)
+1.  
+
+First 
+1. Hotel booking for a particular slot of schedule shared with the manager
+2. Most difficult Problem or bug you have faced in past.
+3. Implement getMin from a Stack datastructe at any point of the discussion.
+
+Second
+Desingn cron job schedular for a large scale project. 
+Define the end-points and possible ways of solving the problem.
+
+Third
+1. Matrix with right or bottom movement allowed. Find the number of ways to reach the last room in such a structer considering the fact that you are not allowed to move with 
+any negative engery to a next room.
+2. Clone a list with Random pointers without using any Map kindof structure.

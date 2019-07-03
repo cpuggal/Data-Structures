@@ -7,8 +7,8 @@
 
 #define SIZE        100
 #define MAX         1000
-#define STL_LRU     0
-#define CPP_LRU     1
+#define STL_LRU     1
+#define CPP_LRU     0
 
 using namespace std;
 
@@ -27,7 +27,7 @@ class LRU
 
         void refer(int x)
         {
-            if(mp.find(x) == mp.end())
+            if(mp.find(x) == mp.end()) //Not in map, means not in Queue as well
             {
                 if(queue.size() == cSize)
                 {
@@ -37,8 +37,9 @@ class LRU
                 }
             }
             else
+            {
                 queue.erase(mp[x]); // Present so delete from current position in queue and then add at front
-
+            }
             queue.push_front(x);
             mp[x] = queue.begin();
         }

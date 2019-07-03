@@ -1,0 +1,10 @@
+1 --> Maximum sum sub array
+2 --> Given rope with diff length. Cost of joining is sum of prev cost and sum of currn two ropes. Example: 4, 2, 3, 6
+Steps:
+    Sum = 2 + 3 = 5
+    Sum = 4 + 5 = 9
+    Sum = 6 + 9 = 15
+
+Cost = 5 + 9 + 15 ==> 29 (min) 
+
+3 --> Left view of Tree

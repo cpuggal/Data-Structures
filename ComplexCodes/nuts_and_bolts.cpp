@@ -1,5 +1,7 @@
 #include <stdio.h>
-#include <bits/stdc++.h>
+#include "/Users/chandan.p/Documents/Chandan/Chandan-Git/stdc++.h"
+
+using namespace std;
 
 bool isACombination(int a[], int b[], int size)
 {
@@ -9,7 +11,7 @@ bool isACombination(int a[], int b[], int size)
 
     while(i<size)
     {
-	map(a[i]) = true;
+	map[a[i]] = true;
         i++;
     }
 
@@ -17,10 +19,10 @@ bool isACombination(int a[], int b[], int size)
     
     while(i<size)
     {
-        if(map(b[i]) == true)
+        if(map[b[i]] == true)
         {
-	    auto it = map.find(b[i]);
-	    map.erase(it);
+	        auto it = map.find(b[i]);
+	        map.erase(it);
         }
 	i++;
     }
@@ -28,17 +30,19 @@ bool isACombination(int a[], int b[], int size)
     if (map.size() == 0)
         return true;
     else
-	return false;
+	    return false;
 }
 
-void main()
+int main()
 {
     int nuts[] = {2,5,12,22,48};
     int bolts[] = {12,5,48,2,22};
 
 
     if(isACombination(nuts, bolts, sizeof(nuts)/sizeof(int)))
-	cout<<"Its a correct match\n";
+	    cout<<"Its a correct match\n";
     else
         cout<<"Match failed!\n";
+
+    return 0;
 }

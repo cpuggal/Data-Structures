@@ -261,6 +261,20 @@ class Tree{
     }
 };
 
+// Purpose of this functions is to find two nodes which has Sum equals Sum
+void FindSum1(int Sum, Tree t1, Tree t2)
+{
+    if (t1 == NULL)
+        return;
+
+    int S = findNode(Sum-t1->
+}
+
+
+void FindSum2(int Sum, Tree t1, Tree t2)
+{
+
+}
 
 int main()
 {
@@ -281,5 +295,14 @@ int main()
     t.spiralViewOfTree();
 
     postOrder();
+
+    Tree t1;
+    t1.addNode(10);
+    t1.addNode(20);
+    t1.addNode(30);
+    t1.addNode(5);
+    t1.addNode(7);
+
+    FindSum(107, t,t1);
     return 0;
 }
