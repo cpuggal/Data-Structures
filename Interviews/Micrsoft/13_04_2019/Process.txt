@@ -1,3 +1,0 @@
-Round 1: Job Schedular
-Round 2: Sudoko Solver
-Round 3: System Design WhatsApp
