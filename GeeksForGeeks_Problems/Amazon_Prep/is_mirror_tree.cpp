@@ -42,7 +42,7 @@ bool areMirror(Node *t1, Node *t2)
 int main() 
 { 
     Node *a = newNode(1); 
-    Node *b = newNode(1); 
+    Node *b = newNode(1);
     a->left = newNode(2); 
     a->right = newNode(3); 
     a->left->left  = newNode(4); 
