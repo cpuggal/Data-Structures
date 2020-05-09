@@ -1,0 +1,9 @@
+Sorting dependent : 
+    https://www.geeksforgeeks.org/counting-inversions/
+
+
+
+Tricks to remember
+------------------
+Stack :
+    https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/
