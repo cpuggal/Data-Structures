@@ -1,57 +1,53 @@
-server:
-  applicationConnectors:
-  - type: http
-    port: 9090
-  adminConnectors:
-  - type: http
-    port: 9091
-
-prometheus-pushgateway:
-  baseUrl: "prometheus-pushgateway.monitoring.svc"
-  httpClientConfig:
-    requestTimeout: 60000
-
-fleet-service:
+--- 
+fleet-service: 
   baseUrl: "http://dev.hardware.udaan.io/fleet-service/VAHAN_WH"
-  httpClientConfig:
+  httpClientConfig: 
     requestTimeout: 500
-
-warehouse-service:
-  baseUrl: "https://svc-hack.dev.udaan.io/warehouse-service"
-  httpClientConfig:
-    requestTimeout: 1000
-
-
-#TODO(Soumyadeep) Move to db
-vahan-conf:
-  clubbingFactor: 2
-
-logging:
-  level: INFO
-  appenders:
-    - type: console
-      threshold: INFO
-      timeZone: "UTC"
-      logFormat: "[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%X{TRACE-ID}] [%-5level] [%thread] %msg %n"
-
-kubernetes:
-  cpus: 2 # Per instance of this service, number of cpus needed (e.g. 0.5, or 1.5)
-  mem: 2048 # Memory allocated to container in MBs
-  jvmArgs: -server -Xms6000m -Xmx7000m -XX:MaxMetaspaceSize=512m -XX:+PrintGCDetails -XX:+UseG1GC -XX:+PrintGCDateStamps -Dkotlinx.coroutines.io.parallelism=2048 -Djava.util.concurrent.ForkJoinPool.common.parallelism=512 -Duser.timezone=UTC
-  mainClass: com.udaan.vahan.orchestrator.VahanOrchestratorApplicationKt
-  serviceName: vahan-orchestrator-service
-  healthcheck: default
-  problemArea: hardware
-  env:
-    dev:
-      instances: 1
+kubernetes: 
+  cpus: 2
+  env: 
+    dev: 
       cluster: cen0
-      hpaSpec:
-        minReplicas: 1
+      hpaSpec: 
         maxReplicas: 2
+        minReplicas: 1
         targetCPUUtilizationPercentage: 50
         targetMemoryUtilizationPercentage: 50
-    prod:
       instances: 1
+    prod: 
       cluster: cen0
+      instances: 1
+  healthcheck: default
+  jvmArgs: "-server -Xms6000m -Xmx7000m -XX:MaxMetaspaceSize=512m -XX:+PrintGCDetails -XX:+UseG1GC -XX:+PrintGCDateStamps -Dkotlinx.coroutines.io.parallelism=2048 -Djava.util.concurrent.ForkJoinPool.common.parallelism=512 -Duser.timezone=UTC"
+  mainClass: com.udaan.vahan.orchestrator.VahanOrchestratorApplicationKt
+  mem: 2048
+  problemArea: hardware
+  serviceName: vahan-orchestrator-service
+logging: 
+  appenders: 
+    - 
+      logFormat: "[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%X{TRACE-ID}] [%-5level] [%thread] %msg %n"
+      threshold: INFO
+      timeZone: UTC
+      type: console
+  level: INFO
+prometheus-pushgateway: 
+  baseUrl: prometheus-pushgateway.monitoring.svc
+  httpClientConfig: 
+    requestTimeout: 60000
+server: 
+  adminConnectors: 
+    - 
+      port: 9091
+      type: http
+  applicationConnectors: 
+    - 
+      port: 9090
+      type: http
+vahan-conf: 
+  clubbingFactor: 2
+warehouse-service: 
+  baseUrl: "https://svc-hack.dev.udaan.io/warehouse-service"
+  httpClientConfig: 
+    requestTimeout: 1000
 
